@@ -1,0 +1,90 @@
+/* css document */
+
+body {background-color: rgb(0, 0, 0);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: rgb(172, 172, 172);}
+
+
+div{width: 80%;
+    border: rgb(255, 0, 0) solid 5px;
+    border-color: blue;
+    border-style: double;
+    border-width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 0;
+    margin: 5% auto 5% auto;
+    padding: 5%;
+}
+
+ section, 
+figure {border:
+    solid red 5px; 
+    padding: 1%;
+    margin: 1%;
+}
+nav {background-color:seagreen;
+                    width: 100%;
+                    height: 100%px;}
+
+                    
+
+
+nav li{display: inline-block;
+        width: 15%;
+        /* height: 35px; */
+        text-align: center;
+        background-color: rgb(46, 46, 46);
+        padding-top: 1%;
+        padding-bottom: 1.5%;
+        color: white;
+        border-radius: 30px 10px 0px 0px;
+        box-shadow: 15px;
+        margin: 1%};
+        
+        
+
+        nav li:hover{background-color: rgb(255, 255, 255);}
+
+
+
+section{display:  table;}
+
+
+
+article{width: 60%;
+        float: left;
+    background-color: darkgreen;}
+
+    
+
+article p{text-align:  justify;
+    list-style: 24px;
+    text-indent: 36px;}
+
+
+figure{width: 30%;
+    float: right;}
+
+        
+figure img{width: 100%;
+            border-radius: 10px;}
+                
+                
+
+figure img{width: 100%;
+            border-radius: 130px;}
+
+figure figcaption{text-align: center;
+                    font-weight: bold;
+                    font-style: italic;}
+
+
+nav{background-color: aquamarine;}
+
+
+
+footer{background-color: rgb(65, 65, 65);
+        text-align: center;}

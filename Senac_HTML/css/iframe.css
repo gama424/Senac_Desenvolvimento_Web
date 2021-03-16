@@ -1,0 +1,39 @@
+body{background-image: url(./images/blue-lines-hd-image.jpg);
+background-size: cover;}
+
+
+div nav{
+        width: 15%;
+        height: 250px;
+        display: inline-block;
+        margin: 1%;
+        float: left;
+    }
+
+ nav li{
+     width: 80%;
+     height: 25px;
+     margin: 20px 0;
+     padding: 1%;
+     list-style: none;
+     text-transform: uppercase;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     border-radius: 10px;
+     border: outset 3px rgb(132, 132, 255);
+     box-shadow: 2px 2px 5px;
+     color: rgb(0, 0, 0);
+     background-image: url(./images/external-content.duckduckgo.com.jpeg);
+    
+ }
+        
+iframe{
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    float: center;
+    margin: 5px;
+    
+}
+
+
