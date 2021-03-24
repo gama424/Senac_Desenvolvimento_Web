@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+
+
+body{margin:0;
+    background-image: url(../css/images/rocky.jpeg);
+background-repeat: no-repeat;
+background-color:rgb(0, 0, 0)}
+
+#container {width: 100%;
+    min-width: 776px;
+    display: table;}
+
+
+
+figure {margin: 0; 
+padding: 0;
+width: 20%;
+float: right;}
+
+
+
+figure figcaption p {
+    color: cornsilk;
+    font-size: 10px; /*acho que não estava funcionando antes - 100px é enorme - ajustei para 10px*/
+}
+
+
+
+.menu ul{
+    display: flex;
+    width: 100%;
+    position:;
+    color: blanchedalmond;
+    justify-content: space-around;
+    font-family: 'Sedgwick Ave Display', cursive;
+    list-style: none;
+    padding: 0 4%;
+    
+}
+
+
+
+
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+.menu p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+
+
+.sessao{
+        width: 99.1%;
+        background: rgba(255, 255, 255, 0);
+        position: relative;
+        left: 0px;
+        top: 200px;
+    }
+
+    .sessao video {height: 680px;
+        width: 100%;
+    border-radius: 2%;
+    box-shadow: 7px 2px 2px 0;}
+
+
+
+.luta{background-color: rgba(0, 0, 0, 0.363);
+    height: 900px;
+    width: 100%;
+    ;}
+
+
+
+.luta img{position: relative;
+        left: 50px;
+    top: 80px;
+    border-radius: 10%;
+    box-shadow: 5px 2px 2px 0;}
+
+    
+    
+.luta h1{color: rgb(255, 255, 255);
+    font-family: 'Sedgwick Ave Display', cursive;
+justify-content: center;
+display: flex;}
+
+
+
+iframe{background-color: cyan;
+    height: 800px;
+    width: 500px;
+    position: relative;
+    left: 410px;
+    display: inline-block;
+    float: center;
+    margin: 5px;
+    border-radius: 5%;
+    box-shadow: 5px 2px 2px 0;}
+
+
+
+
+
+
+.final{
+        height: 70px;
+        width: 100%;
+        position: relative;
+        bottom: -50px;
+        background-color: rgb(0, 0, 0);
+    }
+
+.final h1{
+    color: white;
+    align-items: left;
+    text-shadow: 5px 5px 5px 0;
+}
+
+.final img{width: 50px;
+            height: 50px;
+            position: relative;
+            left: 10px;
+            bottom: 45px;
+
+}
